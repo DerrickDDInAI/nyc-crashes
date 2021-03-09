@@ -19,8 +19,9 @@ This is a work in progress.
 ## Introduction
 ### Description
 This is a python project for the mayor of New York City (NYC), *Bill de Blasio*.
-His *New York City Police Department* (NYPD), collected information about all the traffic accidents happened in NYC.
-The program allows to **clean** and **prepare the dataset** for a machine learning model
+His *New York City Police Department* (NYPD), collected information about all the traffic accidents happened in NYC:
+in the [NYC Motor Vehicle Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95).
+The program allows to **clean** and **prepare the dataset** for a machine learning model.
 
 ### Objective
 *Bill de Blasio* wants to predict which streets are the most dangerous in NYC.
@@ -36,7 +37,8 @@ _ToDO_
 ## Installation
 To run the program, you need:
 - To install the libraries below.
-- To download the example dataset `data_100000.csv` or a different sized dataset using the script `download.py`.
+- To download the example dataset `data_100000.csv` 
+- Or to download a different sized dataset using the script `download.py` (written by BeCode).
 
 ### Install the libraries
 | Library       | Used to                                        |
@@ -101,7 +103,7 @@ nyc-crashes
 │
 └───core                    :directory contains all the core scripts of the program
 │   │   __init__.py
-│   │   download.py         :script to download the dataset in different size
+│   │   download.py         :script to download the dataset in different size (written by BeCode)
 │   │
 │   └───assets              :contains the datasets and images
 ```
@@ -133,7 +135,9 @@ Instructions on how to contribute will be described in this section.
 
 ### Author(s) and acknowledgment
 This project is carried out by **Van Frausum Derrick** from Theano 2.27 promotion at BeCode.
-I would like to thank my colleagues and coaches at beCode for their help and guidance.
+I would like to thank my colleagues and coaches at BeCode for their help and guidance.
+`download.py` script is written and owned by BeCode.
+
 
 
 ## Next steps

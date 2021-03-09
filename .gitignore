@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+core/nyc-crashes.code-workspace
+core/assets/data_100000.csv
+.DS_Store
