@@ -108,9 +108,21 @@ nyc-crashes
 
 ### Roadmap
 - [x] Download the dataset
-- [x] Explore the dataset
-- [X] Clean the dataset
-- [X] Prepare the dataset for a machine learning model
+- [] Explore the dataset
+- [] Clean dataset: no missing values (remove or fill in missing values)
+- [] Clean dataset: Consolidate values
+- [] Clean dataset: Make sure data format is correct
+- [] Clean dataset: Trim blank spaces
+- [] Prepare dataset for machine learning model: If necessary, add new useful features based on existing features in the dataset
+- [] Prepare dataset for machine learning model: feature selection
+- [] Prepare dataset for machine learning model: feature engineering
+- [] Prepare dataset for machine learning model: feature normalization
+- [] Prepare dataset for machine learning model: feature resampling
+
+Depending on progress in roadmap above:
+- [] Export data into `data_clean_GOOD_ENOUGH.csv`
+- [] Export data into `data_clean_GOOD.csv`
+- [] Export data into `data_clean_PRECISE.csv`
 
 
 ### Contributing
@@ -127,3 +139,4 @@ I would like to thank my colleagues and coaches at beCode for their help and gui
 ## Next steps
 - Determine requirements for contributions
 - Add instructions on how to contribute
+- Progress in roadmap
