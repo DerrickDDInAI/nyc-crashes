@@ -19,8 +19,8 @@ This is a work in progress.
 ## Introduction
 ### Description
 This is a python project for the mayor of New York City (NYC), *Bill de Blasio*.
-His *New York City Police Department* (NYPD), collected information about all the traffic accidents happened in NYC:
-in the [NYC Motor Vehicle Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95).
+His *New York City Police Department* (NYPD), collected information about all the traffic accidents happened in NYC.
+This dataset as well as explanation is available in the following link: [NYC Motor Vehicle Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95).
 The program allows to **clean** and **prepare the dataset** for a machine learning model.
 
 ### Objective
@@ -31,7 +31,7 @@ It is a 2 days project.
 The deadline to complete it is scheduled to `10/03/2021 at 4 p.m.`.
 
 ### Visuals
-_ToDO_
+![Output cleaned dataset](core/assets/output_csv_good_enough.png)
 
 
 ## Installation
@@ -54,11 +54,6 @@ Follow these instructions to install the required libraries: on terminal
 4. Run the command: 
 ```pip3 install -r requirements.txt```
 
-You can even install the libraries and run the program directly after the installation as such:
-
-4. Run the command:
-```pip3 install -r requirements.txt && python3 main.py```
-
 ### Download `data_100000.csv` or a different sized dataset using the script
 - [data_100000.csv]()
 - [download.py]()
@@ -77,17 +72,15 @@ core/assets
 
 ## Instructions
 ### How to run the program
-- Run `main.py` to start the program.
-Or
-- On your terminal:
-```python3 main.py```
+Open `exploration.ipynb` jupyter notebook
+to see the data exploration and preprocessing.
 
 ### Usage example
 #### Example of input the user can give:
-![Example input](core/assets/Example_input.png)
+_ToDo_
 
 #### Output of the example:
-![Example output](core/assets/Example_output.png)
+_ToDo_
 
 
 ## Architecture
@@ -104,14 +97,15 @@ nyc-crashes
 └───core                    :directory contains all the core scripts of the program
 │   │   __init__.py
 │   │   download.py         :script to download the dataset in different size (written by BeCode)
+│   │   exploration.ipynb   :jupyter notebook where to follow the data exploration and preprocessing
 │   │
 │   └───assets              :contains the datasets and images
 ```
 
 ### Roadmap
 - [x] Download the dataset
-- [] Explore the dataset
-- [] Clean dataset: no missing values (remove or fill in missing values)
+- [X] Explore the dataset
+- [X] Clean dataset: no missing values (remove or fill in missing values)
 - [] Clean dataset: Consolidate values
 - [] Clean dataset: Make sure data format is correct
 - [] Clean dataset: Trim blank spaces
@@ -122,9 +116,12 @@ nyc-crashes
 - [] Prepare dataset for machine learning model: feature resampling
 
 Depending on progress in roadmap above:
-- [] Export data into `data_clean_GOOD_ENOUGH.csv`
+- [X] Export data into `data_clean_GOOD_ENOUGH.csv`
 - [] Export data into `data_clean_GOOD.csv`
 - [] Export data into `data_clean_PRECISE.csv`
+
+Finally:
+- [] Optimizing and automate the preprocessing steps
 
 
 ### Contributing
@@ -143,4 +140,7 @@ I would like to thank my colleagues and coaches at BeCode for their help and gui
 ## Next steps
 - Determine requirements for contributions
 - Add instructions on how to contribute
-- Progress in roadmap
+- Progress in roadmap: continue cleaning and preparing data
+- Export data into `data_clean_GOOD.csv`
+- Export data into `data_clean_PRECISE.csv`
+- Optimizing and automate the preprocessing steps (in main file)

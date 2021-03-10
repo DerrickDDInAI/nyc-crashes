@@ -1,6 +1,8 @@
 """
 Python program to **clean** and **prepare the dataset** for a machine learning model.
 See README file for more information.
+
+Status: work in progress
 """
 # =====================================================================
 # Import
