@@ -106,22 +106,22 @@ nyc-crashes
 - [x] Download the dataset
 - [X] Explore the dataset
 - [X] Clean dataset: no missing values (remove or fill in missing values)
-- [] Clean dataset: Consolidate values
-- [] Clean dataset: Make sure data format is correct
-- [] Clean dataset: Trim blank spaces
-- [] Prepare dataset for machine learning model: If necessary, add new useful features based on existing features in the dataset
-- [] Prepare dataset for machine learning model: feature selection
-- [] Prepare dataset for machine learning model: feature engineering
-- [] Prepare dataset for machine learning model: feature normalization
-- [] Prepare dataset for machine learning model: feature resampling
+- [ ] Clean dataset: Consolidate values
+- [ ] Clean dataset: Make sure data format is correct
+- [ ] Clean dataset: Trim blank spaces
+- [ ] Prepare dataset for machine learning model: If necessary, add new useful features based on existing features in the dataset
+- [ ] Prepare dataset for machine learning model: feature selection
+- [ ] Prepare dataset for machine learning model: feature engineering
+- [ ] Prepare dataset for machine learning model: feature normalization
+- [ ] Prepare dataset for machine learning model: feature resampling
 
 Depending on progress in roadmap above:
 - [X] Export data into `data_clean_GOOD_ENOUGH.csv`
-- [] Export data into `data_clean_GOOD.csv`
-- [] Export data into `data_clean_PRECISE.csv`
+- [ ] Export data into `data_clean_GOOD.csv`
+- [ ] Export data into `data_clean_PRECISE.csv`
 
 Finally:
-- [] Optimizing and automate the preprocessing steps
+- [ ] Optimizing and automate the preprocessing steps
 
 
 ### Contributing
